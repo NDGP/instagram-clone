@@ -13,7 +13,6 @@ export class RegisterScreen extends Component {
         }
         this.onSignup = this.onSignUp.bind(this)
     }
-fewa
     onSignUp() {
         const { email, password, name } = this.state;
         firebase.auth().createUserWithEmailAndPassword(email, password)
