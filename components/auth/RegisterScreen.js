@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { TextInput, View, Button } from 'react-native'
 import firebase from 'firebase';
+
 export class RegisterScreen extends Component {
 
     constructor(props) {
@@ -17,7 +18,7 @@ export class RegisterScreen extends Component {
         const { email, password, name } = this.state;
         firebase.auth().createUserWithEmailAndPassword(email, password)
             .then((result) => {
-                firebase.firestore.CollectionReference('users')
+                firebase.firestore().collection('users')
                     .doc(firebase.auth().currentUser.uid)
                     .set({
                         name,
