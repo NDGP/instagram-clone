@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var USER_STATE_CHANCE = 'USER_STATE_CHANCE';","map":{"version":3,"sources":["/home/nathan/projects/instagram-clone/redux/constents/index.js"],"names":["USER_STATE_CHANCE"],"mappings":"AAAA,OAAO,IAAMA,iBAAiB,GAAG,mBAA1B","sourcesContent":["export const USER_STATE_CHANCE = 'USER_STATE_CHANCE'"]},"metadata":{},"sourceType":"module"}
