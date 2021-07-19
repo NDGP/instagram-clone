@@ -1,0 +1,1 @@
+export const USER_STATE_CHANCE = 'USER_STATE_CHANCE'
